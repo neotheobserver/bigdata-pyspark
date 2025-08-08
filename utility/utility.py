@@ -1,6 +1,9 @@
 import logging
 
 
+def dummy_func():
+    pass
+
 def setup_logging(log_file_name):
 
     logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
